@@ -1,4 +1,11 @@
+@font-face { /* Définition d'une nouvelle police nommée Source sans pro */
+    font-family: 'source_sans_pro';
+    src: url('fonts/SourceSansPro-Regular.otf');
+}
+
 p
 {
-    font-size: 14px;
+    font-family: 'source_sans_pro', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align: justify;
 }
