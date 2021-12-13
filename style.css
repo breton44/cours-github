@@ -1,11 +1,58 @@
-@font-face { /* Définition d'une nouvelle police nommée Source sans pro */
+/*
+@font-face { /* Définition d'une nouvelle police nommée Source sans pro
     font-family: 'source_sans_pro';
     src: url('fonts/SourceSansPro-Regular.otf');
 }
+*/
+h1
+{
+    font-style: italic;
+    background-color: rgb(177, 174, 174);
+    border: rgb(177, 174, 174)y 3px solid;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px grey;
+}
+h1:hover
+{
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0)y 3px solid;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
+}
+h2
+{
+    text-shadow: 6px 6px 6px grey;
+    text-decoration: overline #011afc;
+}
+h2:hover
+{
+    text-decoration: underline #ac0c0c 10px;
+}
 p
 {
     font-family: 'source_sans_pro', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     text-align: justify;
+    text-shadow: black;
+    opacity: 0.4;
+}
+ul
+{
+    display: table;
+    width: 100%;
+}
+li
+{
+    display: table-cell;
+}
+.imageflottante
+{
+    float: left;
+}
+.dessous
+{
+    clear: both;
 }
