@@ -11,6 +11,9 @@ h1
     border: rgb(177, 174, 174)y 3px solid;
     border-radius: 20px;
     box-shadow: 6px 6px 6px grey;
+    padding-left: 20px;
+    width: 50%;
+    min-width: 400px;
 }
 h1:hover
 {
@@ -35,24 +38,57 @@ p
 {
     font-family: 'source_sans_pro', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    text-align: justify;
     text-shadow: black;
     opacity: 0.4;
+    text-align: justify;
 }
-ul
+#menu
 {
-    display: table;
+    display: flex;
     width: 100%;
-}
-li
-{
-    display: table-cell;
+    justify-content: space-around;
 }
 .imageflottante
 {
     float: left;
+    padding: 10px 20px 10px 20px;
 }
 .dessous
 {
     clear: both;
+    padding: 20px 30px 20px 30px;
+}
+#main
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.premierbloc
+{
+    width: 50%;
+    min-width: 400px;
+    height: 300px;
+    background-color: coral;
+    font-size: 20px;
+    border: 3px black;
+    opacity: unset;
+    overflow: auto;
+    word-wrap: break-word;
+    padding: 20px 20px 10px 20px;
+    text-align: justify;
+}
+.deuxiemebloc
+{
+    width: 50%;
+    min-width: 400px;
+    height: 200px;
+    background-color: rgb(80, 255, 109);
+    font-size: 20px;
+    border: 3px black;
+    opacity: unset;
+    overflow: auto;
+    word-wrap: break-word;
+    padding: 20px 20px 10px 20px;
+    text-align: justify;
 }
